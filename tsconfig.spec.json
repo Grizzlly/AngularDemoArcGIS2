@@ -4,6 +4,8 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "outDir": "./out-tsc/spec",
+    "module": "ES6",
+    "forceConsistentCasingInFileNames": true,
     "types": [
       "vitest/globals"
     ]
